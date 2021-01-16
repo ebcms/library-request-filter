@@ -1,0 +1,11 @@
+{
+    "name": "ebcms/request-filter",
+    "description": "php request filter",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ebcms\\": "src/"
+        }
+    }
+}
