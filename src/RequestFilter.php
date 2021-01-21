@@ -85,7 +85,7 @@ class RequestFilter
         return $value;
     }
 
-    private function isSetValue(array $data = [], array $arr): bool
+    private function isSetValue(array $data = [], array $arr = []): bool
     {
         $key = array_shift($arr);
         if (!$arr) {
